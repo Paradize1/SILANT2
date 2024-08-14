@@ -1,0 +1,26 @@
+.footer {
+    max-width: 1366px;
+    height: 100px;
+    margin-top: 14px;
+    color: #ffffff;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,48,41,1) 48%);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer_img img {
+    height: 50px;
+    width: auto; /* Или конкретная ширина, если нужно */
+}
+
+
+@media screen and (max-width: 440px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+}

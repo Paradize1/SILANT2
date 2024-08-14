@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Astra-Sans Regular';
+    src: url('./styles/fonts/PT-Astra-Sans_Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Astra-Sans Bold';
+    src: url('./styles/fonts/PT-Astra-Sans_Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Astra-Sans Italic';
+    src: url('./styles/fonts/PT-Astra-Sans_Italic.ttf');
+}
+
+@font-face {
+    font-family: 'Astra-Sans Bold-Itali';
+    src: url('./styles/fonts/PT-Astra-Sans_Bold-Italic.ttf');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#root {
+    font-family: 'Astra-Sans Regular';
+}
+
+.application {
+    max-width: 1366px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

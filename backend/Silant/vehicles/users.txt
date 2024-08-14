@@ -1,0 +1,22 @@
+klient1   20001222Aaqqq     ИП Трудников С.В.
+
+klient2   20001222Aaqqq    ООО "МНС77"
+klient3 20001222Aaqqq
+klient4 20001222Aaqqq
+klient5 20001222Aaqqq
+klient6 20001222Aaqqq
+klient7 20001222Aaqqq
+klient8 20001222Aaqqq
+
+manager1   20001222Aaqqq    - sotrudnic
+manager2   20001222Aaqqq
+
+company1   20001222Aaqqq     prom teh    ООО "ФПК21"
+
+company2   20001222Aaqqq      silant
+company3   20001222Aaqqq      fns
+
+
+klient1   20001222Aaqqq     ИП Трудников С.В.
+manager1   20001222Aaqqq    
+company1   20001222Aaqqq   ООО "ФПК21"

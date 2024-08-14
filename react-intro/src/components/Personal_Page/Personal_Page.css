@@ -1,0 +1,70 @@
+.personal_main {
+    margin-top: 14px;
+    color: #ffffff;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(79,79,69,1) 48%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+}
+
+.client_and_company {
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 72px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.personal_text {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 10px 10px;
+    font-size: 30px;
+    font-weight: 350;
+    line-height: 30px;
+
+}
+
+.personal_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.button_info,
+.button_to,
+.button_reclamac {
+    height: 50px;
+    width: 200px;
+    margin-bottom: 30px;
+
+    background-color: #28292e;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button_info:hover,
+.button_to:hover,
+.button_reclamac:hover {
+    background-color: #404247;
+}
+.button_info:active,
+.button_to:active,
+.button_reclamac:active {
+    transform: scale(0.95); /* Уменьшаем размер на момент нажатия */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Добавляем тень */
+}

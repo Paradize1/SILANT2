@@ -1,0 +1,19 @@
+# Ignore node_modules
+backend/node_modules
+react-intro/node_modules
+
+# Ignore virtual environment
+backend/venv
+
+# Other common ignores
+.DS_Store
+*.log
+*.env
+*.pyc
+__pycache__/
+dist/
+build/
+.env
+.idea/
+.vscode/
+*.iml

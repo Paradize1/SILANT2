@@ -1,0 +1,133 @@
+.body {
+    margin-top: 14px;
+    color: #ffffff;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(79,79,69,1) 48%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 7px;
+}
+
+.body_1,
+.body_2,
+.body_3,
+.body_4 {
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 72px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin: 10px 10px;
+
+}
+
+.body_2 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 10px 10px;
+    font-size: 30px;
+    font-weight: 350;
+    line-height: 30px;
+}
+
+.factory_number {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    margin-left: 100px;
+    
+}
+.factory_number_input_block{
+    margin-left: 20px;
+}
+
+.factory_number_search_button {
+    flex-grow: 1;
+    margin-right: 100px;
+
+    height: 70px;
+    margin-top: 30px;
+    background-color: #28292e;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.factory_number_search_button:hover {
+    background-color: #404247;
+  }
+  .factory_number_search_button:active {
+    transform: scale(0.95); /* Уменьшаем размер на момент нажатия */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Добавляем тень */
+  }
+
+.body_3 {
+    text-align: left;
+    margin-left: 400px;
+}
+
+.body_4 {
+    font-size: 30px;
+    font-weight: 350;
+    line-height: 30px;
+
+}
+
+
+
+.body_table {
+    margin: 10px 10px;
+
+}
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: white;
+  color: rgb(0, 0, 0); /* Чёрный цвет текста в модальном окне */
+  padding: 20px;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 500px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.clickable {
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+}
